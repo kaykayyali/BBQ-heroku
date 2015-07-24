@@ -1,0 +1,23 @@
+<h1><%= @user.name %></h1>
+<div class="col-lg-6">
+	<h3>My Barbecues</h3>
+	<ul>
+		<% @user.barbecues.each do |barbecue| %>
+			<li data-hook="<%= barbecue.id %>"><a href="<%= barbecue_path(barbecue.id) %>" ><%= barbecue.title  %></a> 
+				<% if current_user.name == @user.name %>
+					<button class="btn btn-danger btn-xs" data-hook="delete-bbq" id="<%= barbecue.id %>">X</button>
+				<% end %>
+				<ul>
+					<li>Venue: <%= barbecue.venue  %></li>
+					<li>Date: <%= format_date(barbecue.date)  %></li>
+				</ul>
+			</li>
+				
+		<% end %>
+	</ul>
+	<a href="<%= barbecues_path %>">Back to list of BBQs</a>
+</div>
+
+<% if current_user.present? %>
+	 	<%= react_component('Box', props= {email: current_user.email}, html_options={:class => "react_box navbar-fixed-bottom"}) %>
+<% end %>
