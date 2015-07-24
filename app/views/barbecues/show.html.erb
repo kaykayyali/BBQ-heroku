@@ -1,22 +1,33 @@
 <h1>BBQ</h1>
-<div class="col-lg-6">
-	<div data-hook="bbq-info" data-bbq="<%= params[:id] %>"></div>
-	Items People are bringing:
-	<ul class="" data-hook="items-list">
-		<% @items.each do |item| %>
-			<li><%= item.name %> - <a href="/users/showUser/<%= item.user_id %>"><%= User.find_by(:id => item.user_id).name %></a></li>
-		<% end %>
-	</ul>
-	
-	<div class="form-group">
-		<label>Add Item</label>
-		<input class="form-control" type="text" data-hook='item-input'>
-	</div>
-	
-	<button class="btn btn-primary" id="<%= @bbq.id%>" type='submit' data-hook="submit-item">Add</button>
-	<br>
+<div class="container">
+	<div class="col-lg-6">
+		<div data-hook="bbq-info" data-bbq="<%= params[:id] %>"></div>
+		Items People are bringing:
+		<ul class="" data-hook="items-list">
+			<% @items.each do |item| %>
+				<li><%= item.name %> - <a href="/users/showUser/<%= item.user_id %>"><%= User.find_by(:id => item.user_id).name %></a></li>
+			<% end %>
+		</ul>
+		
+		<div class="form-group">
+			<label>Add Item</label>
+			<input class="form-control" type="text" data-hook='item-input'>
+		</div>
+		
+		<button class="btn btn-primary" id="<%= @bbq.id%>" type='submit' data-hook="submit-item">Add</button>
+		<br>
 
-	<a href="<%= barbecues_path %>">Back to list of BBQs</a>
+		<a href="<%= barbecues_path %>">Back to list of BBQs</a>
+	</div>
+	<div class="col-lg-g">
+		<h3>Whos coming?:</h3>
+			<ul class="list-unstyled">
+				<% @users.each do |user| %>
+					<li><a href="/users/showUser/<%= user.id %>"><%= user.name  %></a></li>
+				<% end %>
+			</ul>
+		
+	</div>
 </div>
 <% if current_user.present? %>
 	 	<%= react_component('Box', props= {email: current_user.email}, html_options={:class => "react_box navbar-fixed-bottom"}) %>

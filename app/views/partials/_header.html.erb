@@ -2,7 +2,7 @@
 
 
 <% if current_user.present?  %>
-<ul class="list-unstyled">
+<ul class="list-unstyled padding-edit">
 	<li><h2><a href="/users/showUser/<%= current_user.id %>"><%= current_user.name %></a></h2></li>
 	<li><a href='/users/sign_out' data-method="delete">Sign out</a></li>
 </ul>

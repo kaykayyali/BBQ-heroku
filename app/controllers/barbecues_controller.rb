@@ -2,10 +2,12 @@ class BarbecuesController < ApplicationController
   
   before_action(:authenticate_user!)
   def index
+
     @barbecues = Barbecue.order(:date)
   end
 
   def show
+    @users = User.all
     @bbq = Barbecue.find_by(:id => params[:id])
     @items = @bbq.items
   end
