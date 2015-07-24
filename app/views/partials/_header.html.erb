@@ -3,8 +3,7 @@
 
 <% if current_user.present?  %>
 <ul class="list-unstyled">
-	<li><h2><%= current_user.name %></h2></li>
-	<li><h4><%= current_user.email %></h4></li>
+	<li><h2><a href="/users/showUser/<%= current_user.id %>"><%= current_user.name %></a></h2></li>
 	<li><a href='/users/sign_out' data-method="delete">Sign out</a></li>
 </ul>
 <% else %>

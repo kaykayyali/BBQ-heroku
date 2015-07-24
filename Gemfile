@@ -19,6 +19,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'devise'
 gem 'react-rails'
+gem 'rails_12factor', group: :production
 # Use Moment.js for date parsing
 gem 'momentjs-rails'
 gem 'gravtastic'

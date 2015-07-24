@@ -5,7 +5,7 @@
 		<% @user.barbecues.each do |barbecue| %>
 			<li data-hook="<%= barbecue.id %>"><a href="<%= barbecue_path(barbecue.id) %>" ><%= barbecue.title  %></a> 
 				<% if current_user.name == @user.name %>
-					<button class="btn btn-danger btn-xs" data-hook="delete-bbq" id="<%= barbecue.id %>">X</button>
+					<button class="btn btn-danger btn-xs" data-hook="delete-bbq" id="<%= barbecue.id %>">x</button>
 				<% end %>
 				<ul>
 					<li>Venue: <%= barbecue.venue  %></li>
