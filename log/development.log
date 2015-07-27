@@ -50347,3 +50347,2082 @@ Processing by BarbecuesController#getComments as JSON
   [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
 Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115165" for ::1 at 2015-07-27 02:22:30 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115165", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115166" for ::1 at 2015-07-27 02:22:31 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115166", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115167" for ::1 at 2015-07-27 02:22:32 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115167", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115168" for ::1 at 2015-07-27 02:22:33 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115168", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115169" for ::1 at 2015-07-27 02:22:34 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115169", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115170" for ::1 at 2015-07-27 02:22:35 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115170", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115171" for ::1 at 2015-07-27 02:22:36 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115171", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115172" for ::1 at 2015-07-27 02:22:37 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115172", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115173" for ::1 at 2015-07-27 02:22:38 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115173", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115174" for ::1 at 2015-07-27 02:22:39 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115174", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115175" for ::1 at 2015-07-27 02:22:40 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115175", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115176" for ::1 at 2015-07-27 02:22:41 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115176", "id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115177" for ::1 at 2015-07-27 02:22:42 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115177", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115178" for ::1 at 2015-07-27 02:22:43 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115178", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115179" for ::1 at 2015-07-27 02:22:44 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115179", "id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115180" for ::1 at 2015-07-27 02:22:45 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115180", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115181" for ::1 at 2015-07-27 02:22:46 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115181", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115182" for ::1 at 2015-07-27 02:22:47 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115182", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115183" for ::1 at 2015-07-27 02:22:48 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115183", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115184" for ::1 at 2015-07-27 02:22:49 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115184", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115185" for ::1 at 2015-07-27 02:22:50 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115185", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115186" for ::1 at 2015-07-27 02:22:51 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115186", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115187" for ::1 at 2015-07-27 02:22:52 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115187", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115188" for ::1 at 2015-07-27 02:22:53 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115188", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115189" for ::1 at 2015-07-27 02:22:54 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115189", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115190" for ::1 at 2015-07-27 02:22:55 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115190", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115191" for ::1 at 2015-07-27 02:22:56 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115191", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115192" for ::1 at 2015-07-27 02:22:57 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115192", "id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115193" for ::1 at 2015-07-27 02:22:58 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115193", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115194" for ::1 at 2015-07-27 02:22:59 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115194", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115195" for ::1 at 2015-07-27 02:23:00 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115195", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115196" for ::1 at 2015-07-27 02:23:01 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115196", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115197" for ::1 at 2015-07-27 02:23:02 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115197", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115198" for ::1 at 2015-07-27 02:23:03 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115198", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115199" for ::1 at 2015-07-27 02:23:04 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115199", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115200" for ::1 at 2015-07-27 02:23:05 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115200", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115201" for ::1 at 2015-07-27 02:23:06 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115201", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115202" for ::1 at 2015-07-27 02:23:07 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115202", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.5ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115203" for ::1 at 2015-07-27 02:23:08 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115203", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115204" for ::1 at 2015-07-27 02:23:09 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115204", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115205" for ::1 at 2015-07-27 02:23:10 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115205", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115206" for ::1 at 2015-07-27 02:23:11 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115206", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115207" for ::1 at 2015-07-27 02:23:12 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115207", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115208" for ::1 at 2015-07-27 02:23:13 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115208", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115209" for ::1 at 2015-07-27 02:23:14 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115209", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115210" for ::1 at 2015-07-27 02:23:15 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115210", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115211" for ::1 at 2015-07-27 02:23:16 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115211", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115212" for ::1 at 2015-07-27 02:23:17 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115212", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115213" for ::1 at 2015-07-27 02:23:18 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115213", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115214" for ::1 at 2015-07-27 02:23:19 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115214", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115215" for ::1 at 2015-07-27 02:23:20 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115215", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115216" for ::1 at 2015-07-27 02:23:21 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115216", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115217" for ::1 at 2015-07-27 02:23:22 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115217", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115218" for ::1 at 2015-07-27 02:23:23 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115218", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115219" for ::1 at 2015-07-27 02:23:24 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115219", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115220" for ::1 at 2015-07-27 02:23:25 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115220", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115221" for ::1 at 2015-07-27 02:23:26 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115221", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115222" for ::1 at 2015-07-27 02:23:27 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115222", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115223" for ::1 at 2015-07-27 02:23:28 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115223", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115224" for ::1 at 2015-07-27 02:23:29 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115224", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115225" for ::1 at 2015-07-27 02:23:30 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115225", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115226" for ::1 at 2015-07-27 02:23:31 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115226", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115227" for ::1 at 2015-07-27 02:23:32 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115227", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115228" for ::1 at 2015-07-27 02:23:33 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115228", "id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.4ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115229" for ::1 at 2015-07-27 02:23:34 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115229", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115230" for ::1 at 2015-07-27 02:23:35 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115230", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115231" for ::1 at 2015-07-27 02:23:36 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115231", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115232" for ::1 at 2015-07-27 02:23:37 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115232", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115233" for ::1 at 2015-07-27 02:23:38 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115233", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115234" for ::1 at 2015-07-27 02:23:39 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115234", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115235" for ::1 at 2015-07-27 02:23:40 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115235", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115236" for ::1 at 2015-07-27 02:23:41 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115236", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115237" for ::1 at 2015-07-27 02:23:42 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115237", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115238" for ::1 at 2015-07-27 02:23:43 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115238", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115239" for ::1 at 2015-07-27 02:23:44 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115239", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115240" for ::1 at 2015-07-27 02:23:45 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115240", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115241" for ::1 at 2015-07-27 02:23:46 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115241", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115242" for ::1 at 2015-07-27 02:23:47 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115242", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115243" for ::1 at 2015-07-27 02:23:48 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115243", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115244" for ::1 at 2015-07-27 02:23:49 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115244", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115245" for ::1 at 2015-07-27 02:23:50 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115245", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115246" for ::1 at 2015-07-27 02:23:51 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115246", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115247" for ::1 at 2015-07-27 02:23:52 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115247", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115248" for ::1 at 2015-07-27 02:23:53 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115248", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115249" for ::1 at 2015-07-27 02:23:54 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115249", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115250" for ::1 at 2015-07-27 02:23:55 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115250", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115251" for ::1 at 2015-07-27 02:23:56 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115251", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115252" for ::1 at 2015-07-27 02:23:57 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115252", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115253" for ::1 at 2015-07-27 02:23:58 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115253", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115254" for ::1 at 2015-07-27 02:23:59 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115254", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115255" for ::1 at 2015-07-27 02:24:00 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115255", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115256" for ::1 at 2015-07-27 02:24:01 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115256", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115257" for ::1 at 2015-07-27 02:24:02 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115257", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115258" for ::1 at 2015-07-27 02:24:03 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115258", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115259" for ::1 at 2015-07-27 02:24:04 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115259", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115260" for ::1 at 2015-07-27 02:24:05 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115260", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115261" for ::1 at 2015-07-27 02:24:06 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115261", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115262" for ::1 at 2015-07-27 02:24:07 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115262", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115263" for ::1 at 2015-07-27 02:24:08 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115263", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115264" for ::1 at 2015-07-27 02:24:09 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115264", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115265" for ::1 at 2015-07-27 02:24:10 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115265", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115266" for ::1 at 2015-07-27 02:24:11 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115266", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115267" for ::1 at 2015-07-27 02:24:12 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115267", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115268" for ::1 at 2015-07-27 02:24:13 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115268", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115269" for ::1 at 2015-07-27 02:24:14 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115269", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115270" for ::1 at 2015-07-27 02:24:15 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115270", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115271" for ::1 at 2015-07-27 02:24:16 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115271", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115272" for ::1 at 2015-07-27 02:24:17 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115272", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115273" for ::1 at 2015-07-27 02:24:18 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115273", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115274" for ::1 at 2015-07-27 02:24:19 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115274", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115275" for ::1 at 2015-07-27 02:24:20 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115275", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115276" for ::1 at 2015-07-27 02:24:21 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115276", "id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115277" for ::1 at 2015-07-27 02:24:22 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115277", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115278" for ::1 at 2015-07-27 02:24:23 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115278", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115279" for ::1 at 2015-07-27 02:24:24 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115279", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115280" for ::1 at 2015-07-27 02:24:25 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115280", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115281" for ::1 at 2015-07-27 02:24:26 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115281", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115282" for ::1 at 2015-07-27 02:24:27 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115282", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115283" for ::1 at 2015-07-27 02:24:28 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115283", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115284" for ::1 at 2015-07-27 02:24:29 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115284", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115285" for ::1 at 2015-07-27 02:24:30 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115285", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115286" for ::1 at 2015-07-27 02:24:31 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115286", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115287" for ::1 at 2015-07-27 02:24:32 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115287", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115288" for ::1 at 2015-07-27 02:24:33 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115288", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115289" for ::1 at 2015-07-27 02:24:34 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115289", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115290" for ::1 at 2015-07-27 02:24:35 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115290", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115291" for ::1 at 2015-07-27 02:24:36 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115291", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115292" for ::1 at 2015-07-27 02:24:37 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115292", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115293" for ::1 at 2015-07-27 02:24:38 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115293", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115294" for ::1 at 2015-07-27 02:24:39 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115294", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115295" for ::1 at 2015-07-27 02:24:40 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115295", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115296" for ::1 at 2015-07-27 02:24:41 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115296", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115297" for ::1 at 2015-07-27 02:24:42 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115297", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115298" for ::1 at 2015-07-27 02:24:43 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115298", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115299" for ::1 at 2015-07-27 02:24:44 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115299", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115300" for ::1 at 2015-07-27 02:24:45 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115300", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115301" for ::1 at 2015-07-27 02:24:46 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115301", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115302" for ::1 at 2015-07-27 02:24:47 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115302", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115303" for ::1 at 2015-07-27 02:24:48 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115303", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115304" for ::1 at 2015-07-27 02:24:49 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115304", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115305" for ::1 at 2015-07-27 02:24:51 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115305", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115306" for ::1 at 2015-07-27 02:24:52 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115306", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115307" for ::1 at 2015-07-27 02:24:53 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115307", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115308" for ::1 at 2015-07-27 02:24:54 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115308", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115309" for ::1 at 2015-07-27 02:24:55 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115309", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115310" for ::1 at 2015-07-27 02:24:56 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115310", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115311" for ::1 at 2015-07-27 02:24:57 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115311", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115312" for ::1 at 2015-07-27 02:24:58 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115312", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115313" for ::1 at 2015-07-27 02:24:59 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115313", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115314" for ::1 at 2015-07-27 02:25:00 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115314", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115315" for ::1 at 2015-07-27 02:25:01 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115315", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115316" for ::1 at 2015-07-27 02:25:02 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115316", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115317" for ::1 at 2015-07-27 02:25:03 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115317", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115318" for ::1 at 2015-07-27 02:25:04 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115318", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115319" for ::1 at 2015-07-27 02:25:05 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115319", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115320" for ::1 at 2015-07-27 02:25:06 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115320", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115321" for ::1 at 2015-07-27 02:25:07 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115321", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115322" for ::1 at 2015-07-27 02:25:08 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115322", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115323" for ::1 at 2015-07-27 02:25:09 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115323", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115324" for ::1 at 2015-07-27 02:25:10 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115324", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115325" for ::1 at 2015-07-27 02:25:11 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115325", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115326" for ::1 at 2015-07-27 02:25:12 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115326", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115327" for ::1 at 2015-07-27 02:25:13 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115327", "id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115328" for ::1 at 2015-07-27 02:25:14 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115328", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115329" for ::1 at 2015-07-27 02:25:15 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115329", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115330" for ::1 at 2015-07-27 02:25:16 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115330", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.4ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115331" for ::1 at 2015-07-27 02:25:17 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115331", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115332" for ::1 at 2015-07-27 02:25:18 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115332", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115333" for ::1 at 2015-07-27 02:25:19 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115333", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115334" for ::1 at 2015-07-27 02:25:20 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115334", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115335" for ::1 at 2015-07-27 02:25:21 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115335", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115336" for ::1 at 2015-07-27 02:25:22 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115336", "id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115337" for ::1 at 2015-07-27 02:25:23 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115337", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115338" for ::1 at 2015-07-27 02:25:24 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115338", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115339" for ::1 at 2015-07-27 02:25:25 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115339", "id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115340" for ::1 at 2015-07-27 02:25:26 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115340", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115341" for ::1 at 2015-07-27 02:25:27 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115341", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115342" for ::1 at 2015-07-27 02:25:28 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115342", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115343" for ::1 at 2015-07-27 02:25:29 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115343", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115344" for ::1 at 2015-07-27 02:25:30 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115344", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115345" for ::1 at 2015-07-27 02:25:31 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115345", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115346" for ::1 at 2015-07-27 02:25:32 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115346", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115347" for ::1 at 2015-07-27 02:25:33 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115347", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115348" for ::1 at 2015-07-27 02:25:34 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115348", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115349" for ::1 at 2015-07-27 02:25:35 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115349", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115350" for ::1 at 2015-07-27 02:25:36 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115350", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115351" for ::1 at 2015-07-27 02:25:37 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115351", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115352" for ::1 at 2015-07-27 02:25:38 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115352", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115353" for ::1 at 2015-07-27 02:25:39 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115353", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115354" for ::1 at 2015-07-27 02:25:40 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115354", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115355" for ::1 at 2015-07-27 02:25:41 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115355", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115356" for ::1 at 2015-07-27 02:25:42 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115356", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115357" for ::1 at 2015-07-27 02:25:43 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115357", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115358" for ::1 at 2015-07-27 02:25:44 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115358", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115359" for ::1 at 2015-07-27 02:25:45 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115359", "id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115360" for ::1 at 2015-07-27 02:25:46 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115360", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115361" for ::1 at 2015-07-27 02:25:47 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115361", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115362" for ::1 at 2015-07-27 02:25:48 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115362", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115363" for ::1 at 2015-07-27 02:25:49 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115363", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115364" for ::1 at 2015-07-27 02:25:50 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115364", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115365" for ::1 at 2015-07-27 02:25:51 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115365", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.3ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/barbecues/1/Comments?_=1437978115366" for ::1 at 2015-07-27 02:25:52 -0400
+Processing by BarbecuesController#getComments as JSON
+  Parameters: {"_"=>"1437978115366", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBarbecue Load (0.2ms)[0m  [1mSELECT  "barbecues".* FROM "barbecues" WHERE "barbecues"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."barbecue_id" = $1  [["barbecue_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/showUser/2" for ::1 at 2015-07-27 02:25:52 -0400
+Processing by UsersController#showUser as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBarbecue Load (0.8ms)[0m  SELECT "barbecues".* FROM "barbecues" INNER JOIN "attendances" ON "barbecues"."id" = "attendances"."barbecue_id" WHERE "attendances"."user_id" = $1  [["user_id", 2]]
+  Rendered users/show.html.erb within layouts/application (22.9ms)
+  Rendered partials/_header.html.erb (0.2ms)
+Completed 200 OK in 229ms (Views: 223.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application-ed6a24befc6c0253842949814a9808bb.css?body=1" for ::1 at 2015-07-27 02:25:52 -0400
+
+
+Started GET "/assets/jquery-a0ef52da29c2c07cb6a25228c149e9f5.js?body=1" for ::1 at 2015-07-27 02:25:52 -0400
+
+
+Started GET "/assets/jquery_ujs-9561caaf6c3a0b09d44c0c3c37ae95cd.js?body=1" for ::1 at 2015-07-27 02:25:52 -0400
+
+
+Started GET "/assets/moment-846f62af299fd898aec6dcc970435c9c.js?body=1" for ::1 at 2015-07-27 02:25:52 -0400
+
+
+Started GET "/assets/development/react-be547627b43eb8dad6951fbbdfc7d06e.js?body=1" for ::1 at 2015-07-27 02:25:52 -0400
+
+
+Started GET "/assets/react_ujs-9b8c04f334a143ce26d3c17c1b34a2d1.js?body=1" for ::1 at 2015-07-27 02:25:52 -0400
+
+
+Started GET "/assets/md5-4779133a45c16ca3cc19bf42a735abb2.js?body=1" for ::1 at 2015-07-27 02:25:52 -0400
+
+
+Started GET "/assets/components/box-a39457619ad6c89e7085fcaae1df62dd.js?body=1" for ::1 at 2015-07-27 02:25:53 -0400
+
+
+Started GET "/assets/gravtastic-31d4f33b003be174559ec542476422d7.js?body=1" for ::1 at 2015-07-27 02:25:53 -0400
+
+
+Started GET "/assets/components/comment-887f667f8df35a90e51b793c2655e627.js?body=1" for ::1 at 2015-07-27 02:25:53 -0400
+
+
+Started GET "/assets/components/commentForm-0779a0199fd21ca3dba582957dc180bd.js?body=1" for ::1 at 2015-07-27 02:25:53 -0400
+
+
+Started GET "/assets/components/commentList-e2ef642e069323ee3c4fdb989463674e.js?body=1" for ::1 at 2015-07-27 02:25:53 -0400
+
+
+Started GET "/assets/components/commentbox-8ba847a0df16e961a1801efbe5d75f2b.js?body=1" for ::1 at 2015-07-27 02:25:53 -0400
+
+
+Started GET "/assets/components/profileimage-136c63dc933ea95463d87c463b0c5fec.js?body=1" for ::1 at 2015-07-27 02:25:53 -0400
+
+
+Started GET "/assets/barbecues-05e2537af22fac1090c6c1e6c611b80e.js?body=1" for ::1 at 2015-07-27 02:25:53 -0400
+
+
+Started GET "/assets/users-d25cf7004dd185faf6b043f69b79da11.js?body=1" for ::1 at 2015-07-27 02:25:53 -0400

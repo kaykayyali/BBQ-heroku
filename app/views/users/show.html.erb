@@ -1,6 +1,10 @@
 <h1><%= @user.name %></h1>
 <div class="col-lg-6">
+	<% if current_user.name == @user.name %>
 	<h3>My Barbecues</h3>
+	<% else %>
+	<h3>Barbecues <%= @user.name  %> is attending</h3>
+	<% end %>
 	<ul>
 		<% @user.barbecues.each do |barbecue| %>
 			<li data-hook="<%= barbecue.id %>"><a href="<%= barbecue_path(barbecue.id) %>" ><%= barbecue.title  %></a> 
