@@ -9,8 +9,8 @@ var Box = React.createClass({
       color: ""
     }
     var positionBox = {
-      height: '120px',
-      width: '370px'
+      
+      width: '100%'
 
     }
     return (
