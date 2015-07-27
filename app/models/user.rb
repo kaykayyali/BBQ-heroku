@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
   has_many :barbecues, :through => :attendances
   has_many :attendances
   has_many :items
+  has_many :comments
 
   include Gravtastic
   has_gravatar

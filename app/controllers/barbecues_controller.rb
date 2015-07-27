@@ -61,6 +61,39 @@ class BarbecuesController < ApplicationController
     end
   end
 
+  def getComments
+    bbq = Barbecue.find_by(:id => params[:id])
+    commentsArray = []
+
+    bbq.comments.each do |comment|
+      commentUsername = User.find_by(:id => comment.user_id).name
+      p commentUsername
+      newComment = {
+          :user => commentUsername,
+          :content => comment.content,
+          :date => format_date(comment.created_at)
+      }
+      commentsArray.push(newComment)
+    end
+
+    if bbq.present?
+      render :status => 200, :json => commentsArray
+    else
+      render :status => 404, :json => {:response => "Request failed"}
+    end
+
+  end
+  def addComments
+    bbq = Barbecue.find_by(:id => params[:id])
+    
+    
+    newComment = Comment.create(:content => params[:text], :user_id => current_user.id)
+    bbq.comments.push(newComment)
+
+   
+    render :status => 200, :json => {:response => "Success"}
+  end
+
   def new
     @bbq = Barbecue.new
   end
@@ -75,7 +108,10 @@ class BarbecuesController < ApplicationController
       redirect_to(barbecues_path)
     end
   end
-
+  private
+  def format_date(date)
+    return date.strftime('%B, %e %Y at %l:%M %P')
+  end
 
 
 end

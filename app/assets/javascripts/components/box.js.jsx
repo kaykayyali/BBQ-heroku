@@ -18,8 +18,8 @@ var Box = React.createClass({
    		<div className="panel panel-default" style={panelStyle}>
 	  		<div className="panel-body">
           <div className="container-fluid">
-  	  			<ProfileImage image={imageurl}/>
             <Nametag name={this.props.email}/>
+            <ProfileImage image={imageurl}/>
           </div>
 	 		  </div>
 		  </div>

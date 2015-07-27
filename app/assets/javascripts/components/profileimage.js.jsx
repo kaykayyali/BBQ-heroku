@@ -10,7 +10,7 @@ var ProfileImage = React.createClass({
     return (
       
       	<div className="col-sm-4">
-        	<img src ={this.props.image} className="img img-circle"/>
+        	<a href="http://en.gravatar.com" target="_blank"><img src ={this.props.image} className="img img-circle"/></a>
         </div>
         
     );

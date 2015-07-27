@@ -2,7 +2,9 @@
 // All this logic will automatically be available in application.js.
 
 (function main () {
-  var isJoining = false
+
+
+
   $('[data-hook~=delete-bbq]').on('click', function(event) {
   
     var bbqID = event.target.id

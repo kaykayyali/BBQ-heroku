@@ -20,8 +20,9 @@ var Nametag = React.createClass({
    
     return (
     	<div className="col-sm-8">
-        	<h4 className="">{this.props.name}</h4> 
+        	
         	<h4>{monthNames[month]} {day}, {year}</h4> 		
+          <h4 className="">{this.props.name}</h4> 
         </div>
         )
     

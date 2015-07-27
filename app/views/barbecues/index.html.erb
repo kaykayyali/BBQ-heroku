@@ -30,5 +30,5 @@
   <% end %>
 </ul>
 <% if current_user.present? %>
-    <%= react_component('Box', props= {email: current_user.email}, html_options={:class => "navbar-fixed-bottom"}) %>
+    <%= react_component('Box', props= {email: current_user.email}, html_options={:class => "react_box"}) %>
   <% end %>
