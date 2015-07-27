@@ -44492,3 +44492,81 @@ Started GET "/assets/application-40a4348cd27b74c5bf33723b3bfe4fbe.js?body=1" for
 
 
 Started GET "/assets/users-d25cf7004dd185faf6b043f69b79da11.js?body=1" for ::1 at 2015-07-27 02:06:59 -0400
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-07-27 02:08:03 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qJ81FFP+X2faVUbrvIzSNd6OEYrbug/cagBN5KhJVMiHoePD3eQMoSkVbbIBHJ3O6AbT37k38XAIrDHEow3PSQ=="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["remember_created_at", nil], ["updated_at", "2015-07-27 06:08:03.450596"], ["id", 1]]
+  [1m[36m (7.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 669ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-27 02:08:04 -0400
+Processing by BarbecuesController#index as HTML
+Completed 401 Unauthorized in 6ms
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-27 02:08:04 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (10.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (57.3ms)
+  Rendered partials/_header.html.erb (0.6ms)
+Completed 200 OK in 274ms (Views: 269.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/md5-4779133a45c16ca3cc19bf42a735abb2.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/jquery_ujs-9561caaf6c3a0b09d44c0c3c37ae95cd.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/moment-846f62af299fd898aec6dcc970435c9c.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/jquery-a0ef52da29c2c07cb6a25228c149e9f5.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/development/react-be547627b43eb8dad6951fbbdfc7d06e.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/react_ujs-9b8c04f334a143ce26d3c17c1b34a2d1.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/gravtastic-31d4f33b003be174559ec542476422d7.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/components/box-f4112f090c6c0b3d1d2449ed1e779d93.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/components/comment-887f667f8df35a90e51b793c2655e627.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/components/commentForm-0779a0199fd21ca3dba582957dc180bd.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/components/commentList-e2ef642e069323ee3c4fdb989463674e.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/components/commentbox-8ba847a0df16e961a1801efbe5d75f2b.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/components/nametag-92da367236255b969ea91df6b27d0f44.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/components/profileimage-05c7328aef4a7f24977fe30ec9a45964.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/components-a30c6eb3e97ad352ec10e0951236b888.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/barbecues-05e2537af22fac1090c6c1e6c611b80e.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/users-d25cf7004dd185faf6b043f69b79da11.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
+
+
+Started GET "/assets/application-40a4348cd27b74c5bf33723b3bfe4fbe.js?body=1" for ::1 at 2015-07-27 02:08:04 -0400
