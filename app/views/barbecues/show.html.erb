@@ -23,11 +23,11 @@
 	<div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-				<h4>Whos coming?:</h4>
+				<h4>Whos coming?:</h4> 
 			</div>
 			<div class="panel-body">
 				<!-- <ul class="list-unstyled"> -->
-					<% @users.each do |user| %>
+					<% @barbecue.attendances.each do |user| %>
 						<div class="col-sm-6"><a href="/users/showUser/<%= user.id %>"><%= user.name  %></a></div>
 					<% end %>
 				<!-- </ul> -->
