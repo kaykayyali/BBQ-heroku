@@ -2,7 +2,7 @@
 // All this logic will automatically be available in application.js.
 
 (function main () {
-
+isJoining = false
 
 
   $('[data-hook~=delete-bbq]').on('click', function(event) {

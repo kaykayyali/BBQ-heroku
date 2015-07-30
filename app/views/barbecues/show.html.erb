@@ -27,8 +27,9 @@
 			</div>
 			<div class="panel-body">
 				<!-- <ul class="list-unstyled"> -->
-					<% @barbecue.attendances.each do |user| %>
-						<div class="col-sm-6"><a href="/users/showUser/<%= user.id %>"><%= user.name  %></a></div>
+					<% @bbq.attendances.each do |user| %>
+
+						<div class="col-sm-6"><a href="/users/showUser/<%= user.id %>"><%= User.find_by(:id => user.id).name  %></a></div>
 					<% end %>
 				<!-- </ul> -->
 			</div>
